@@ -6,6 +6,17 @@ a {
   text-decoration: none;
 }
 
+a:visited,
+a:link,
+a {
+  color: #f58465;
+}
+
+a:hover {
+  color: #52bab4;
+  cursor: pointer;
+}
+
 body {
   font-family: 'Lato', sans-serif;
   background-color: #fafafa;
@@ -28,23 +39,10 @@ nav li {
   padding: 10px 0px;
   background-color: #fff;
   color: inherit;
+  width: 70%;
 }
 
-nav a:visited {
-  color: #f58465;
-}
 
-nav a:link {
-  color: #f58465;
-}
-
-nav a {
-  color: #f58465;
-}
-
-nav a:hover {
-  color: #52bab4;
-}
 
 h1 {
   font-size: 2rem;
@@ -75,6 +73,10 @@ p {
 
 header {
   margin-top: 3rem;
+}
+
+header p {
+  padding: 2rem 2rem;
 }
 
 .profile-image {
@@ -178,10 +180,15 @@ footer li:last-child {
     color: white;
   }
 
+  nav a:hover {
+    color: #f58465;
+  }
+
   nav li {
     display: inline-block;
     background-color: transparent;
-    padding: 0rem 2rem;
+    padding: 0 1rem 1rem 1rem;
+    width: 10%;
   }
 
   .profile-image {
@@ -203,6 +210,12 @@ footer li:last-child {
     float: left;
     padding-left: 2.5%;
     padding-right: 2.5%;
+  }
+
+  .contact p {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
@@ -229,8 +242,11 @@ footer li:last-child {
   nav li {
     float: left;
     background-color: transparent;
+    width: auto;
     padding: 1.5rem 2rem;
   }
+
+
 
   .portfolio li {
     width: 31.33333%;
@@ -241,6 +257,8 @@ footer li:last-child {
     margin-right: 0;
   }
 
+
+
   .desktop {
     display: block;
   }
@@ -250,102 +268,3 @@ footer li:last-child {
   }
 
 }
-
-
-
-
-
-
-
-
-/*@media screen and (min-width: 768px) {
-
-  nav li {
-    display: inline-block;
-    background-color: #fafafa;
-    width: 15%;
-  }
-
-  header p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    float: left;
-    display: inline-block;
-    width: 45%;
-    text-align: left;
-    padding: 0 2.5%;
-  }
-
-  header img {
-    display: inline-block;
-    width: 50%;
-    float: right;
-  }
-
-  .portfolio li {
-    margin-top: 3rem;
-    width: 46.25%;
-    float: left;
-    display: inline-block;
-    padding: 0 1.25% 0 2.5%;
-  }
-
-  .portfolio li:nth-child(2n+2) {
-    margin-top: 3rem;
-    width: 46.25%;
-    float: right;
-    display: inline-block;
-    padding: 0 2.5% 0 1.25%;
-  }
-
-  .portfolio img {
-    max-width: 100%;
-  }
-
-  .contact p {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0 2.5%;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  nav h1 {
-    display: inline-block;
-    float: left;
-  }
-
-  nav li {
-    padding-top: 1rem;
-    padding-bottom: 0;
-    float: right;
-  }
-
-  .portfolio li {
-    margin-top: 3rem;
-    width: 20%;
-    float: left;
-    display: inline-block;
-    padding: 0 1.25% 0 2.5%;
-  }
-
-  .portfolio li:nth-child(2n+2) {
-    margin-top: 3rem;
-    width: 20%;
-    float: left;
-    display: inline-block;
-    padding: 0 2.5% 0 1.25%;
-  }
-
-  .portfolio li:nth-child(3n+3) {
-    margin-top: 3rem;
-    width: 20%;
-    float: right;
-    display: inline-block;
-    padding: 0 2.5% 0 1.25%;
-    clear: right;
-  }
-}*/
