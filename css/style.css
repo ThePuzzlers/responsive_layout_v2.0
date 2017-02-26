@@ -229,10 +229,12 @@ footer li:last-child {
     width: 1024px;
   }
 
-
-
   .name {
     float: left;
+  }
+
+  .float-right {
+    float: right;
   }
 
   nav ul {
@@ -243,9 +245,8 @@ footer li:last-child {
     float: left;
     background-color: transparent;
     width: auto;
-    padding: 1.5rem 2rem;
+    padding: 1.5rem 2rem 1.5rem 0rem;
   }
-
 
 
   .portfolio li {
@@ -257,10 +258,14 @@ footer li:last-child {
     margin-right: 0;
   }
 
-
+footer {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
   .desktop {
-    display: block;
+    display: inline;
   }
 
   .mobile {
