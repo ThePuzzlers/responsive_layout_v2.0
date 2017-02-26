@@ -241,6 +241,10 @@ footer li:last-child {
     float: right;
   }
 
+  nav ul {
+    float: right;
+  }
+
   nav li {
     float: left;
     background-color: transparent;
@@ -262,6 +266,14 @@ footer {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
 }
 
   .desktop {
